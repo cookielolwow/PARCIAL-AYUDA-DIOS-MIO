@@ -72,7 +72,7 @@ namespace parcial
         }
 
         [Test]
-        public void CrearTiendaSinItems_LanzaExcepcion()
+        public void CrearTiendaSinItems()
         {
             List<ItemTienda> lista = new List<ItemTienda>();
             Assert.Throws<ArgumentException>(() => new Tienda(lista));
