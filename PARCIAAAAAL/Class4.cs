@@ -1,3 +1,4 @@
+using parcial;
 using System.Collections.Generic;
 
 public class ServicioCompra
@@ -5,8 +6,7 @@ public class ServicioCompra
     public static bool Comprar(Jugador jugador, Tienda tienda, List<ItemTienda> itemsAComprar)
     {
 
-        if (jugador == null  tienda == null 
- itemsAComprar == null)
+        if (jugador == null || tienda == null || itemsAComprar == null)
             return false;
 
         decimal costoTotal = 0;
@@ -16,8 +16,7 @@ public class ServicioCompra
         {
             ItemTienda it = itemsAComprar[i];
 
-            if (it == null  it.Item == null 
- !it.Item.EsValido() || it.Cantidad <= 0)
+            if (it == null || it.Item == null || !it.Item.EsValido() || it.Cantidad <= 0)
                 return false;
 
             costoTotal += it.Item.Precio * it.Cantidad;

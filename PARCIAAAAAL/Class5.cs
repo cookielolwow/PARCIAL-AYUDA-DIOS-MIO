@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using parcial;
+using System.Collections.Generic;
 
 public class Tienda
 {
@@ -26,7 +27,7 @@ public class Tienda
 
     public bool AgregarItem(Item item, int cantidad)
     {
-        if (item == null || !item.EsValido() || cantidad <= 0) 
+        if (item == null || !item.EsValido() || cantidad <= 0)
             return false;
 
         ItemTienda existente = null;

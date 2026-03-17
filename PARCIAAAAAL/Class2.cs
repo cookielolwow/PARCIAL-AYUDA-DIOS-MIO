@@ -1,36 +1,28 @@
-public class ItemTienda
+namespace parcial
 {
-    public Item Item { get; }
-    public int Cantidad { get; private set; }
-
-    public ItemTienda(Item item, int cantidad)
+    public class ItemTienda
     {
-        if (item == null  !item.EsValido() 
- cantidad < 0)
+        public Item Item { get; }
+        public int Cantidad { get; private set; }
+
+        public ItemTienda(Item item, int cantidad)
         {
             Item = item;
-            Cantidad = 0;
-            return;
+            Cantidad = (item != null && item.EsValido() && cantidad >= 0) ? cantidad : 0;
         }
 
-        Item = item;
-        Cantidad = cantidad;
-    }
+        public bool AgregarCantidad(int cantidad)
+        {
+            if (cantidad < 0) return false;
+            Cantidad += cantidad;
+            return true;
+        }
 
-    public bool AgregarCantidad(int cantidad)
-    {
-        if (cantidad < 0) return false;
-
-        Cantidad += cantidad;
-        return true;
-    }
-
-    public bool ReducirCantidad(int cantidad)
-    {
-        if (cantidad < 0 || cantidad > Cantidad)
-            return false;
-
-        Cantidad -= cantidad;
-        return true;
+        public bool ReducirCantidad(int cantidad)
+        {
+            if (cantidad < 0 || cantidad > Cantidad) return false;
+            Cantidad -= cantidad;
+            return true;
+        }
     }
 }

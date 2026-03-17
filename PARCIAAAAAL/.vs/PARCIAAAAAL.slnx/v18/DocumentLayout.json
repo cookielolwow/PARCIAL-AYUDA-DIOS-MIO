@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\camil\\Documents\\scripting\\PARCIAL AYUDA DIOS MIO\\PARCIAAAAAL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFC435C6-379B-091E-E770-B605019FB21C}|PARCIAAAAAL.csproj|c:\\users\\camil\\documents\\scripting\\parcial ayuda dios mio\\parciaaaaal\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFC435C6-379B-091E-E770-B605019FB21C}|PARCIAAAAAL.csproj|solutionrelative:unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFC435C6-379B-091E-E770-B605019FB21C}|PARCIAAAAAL.csproj|c:\\users\\camil\\documents\\scripting\\parcial ayuda dios mio\\parciaaaaal\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC435C6-379B-091E-E770-B605019FB21C}|PARCIAAAAAL.csproj|solutionrelative:class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC435C6-379B-091E-E770-B605019FB21C}|PARCIAAAAAL.csproj|c:\\users\\camil\\documents\\scripting\\parcial ayuda dios mio\\parciaaaaal\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC435C6-379B-091E-E770-B605019FB21C}|PARCIAAAAAL.csproj|solutionrelative:class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC435C6-379B-091E-E770-B605019FB21C}|PARCIAAAAAL.csproj|c:\\users\\camil\\documents\\scripting\\parcial ayuda dios mio\\parciaaaaal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC435C6-379B-091E-E770-B605019FB21C}|PARCIAAAAAL.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC435C6-379B-091E-E770-B605019FB21C}|PARCIAAAAAL.csproj|c:\\users\\camil\\documents\\scripting\\parcial ayuda dios mio\\parciaaaaal\\class4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC435C6-379B-091E-E770-B605019FB21C}|PARCIAAAAAL.csproj|solutionrelative:class4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC435C6-379B-091E-E770-B605019FB21C}|PARCIAAAAAL.csproj|c:\\users\\camil\\documents\\scripting\\parcial ayuda dios mio\\parciaaaaal\\class5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC435C6-379B-091E-E770-B605019FB21C}|PARCIAAAAAL.csproj|solutionrelative:class5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 321,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\camil\\Documents\\scripting\\PARCIAL AYUDA DIOS MIO\\PARCIAAAAAL\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "C:\\Users\\camil\\Documents\\scripting\\PARCIAL AYUDA DIOS MIO\\PARCIAAAAAL\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T03:33:20.044Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class4.cs",
+              "DocumentMoniker": "C:\\Users\\camil\\Documents\\scripting\\PARCIAL AYUDA DIOS MIO\\PARCIAAAAAL\\Class4.cs",
+              "RelativeDocumentMoniker": "Class4.cs",
+              "ToolTip": "C:\\Users\\camil\\Documents\\scripting\\PARCIAL AYUDA DIOS MIO\\PARCIAAAAAL\\Class4.cs",
+              "RelativeToolTip": "Class4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T03:33:25.486Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -25,21 +69,47 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class5.cs",
+              "DocumentMoniker": "C:\\Users\\camil\\Documents\\scripting\\PARCIAL AYUDA DIOS MIO\\PARCIAAAAAL\\Class5.cs",
+              "RelativeDocumentMoniker": "Class5.cs",
+              "ToolTip": "C:\\Users\\camil\\Documents\\scripting\\PARCIAL AYUDA DIOS MIO\\PARCIAAAAAL\\Class5.cs",
+              "RelativeToolTip": "Class5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T03:33:16.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class3.cs",
+              "DocumentMoniker": "C:\\Users\\camil\\Documents\\scripting\\PARCIAL AYUDA DIOS MIO\\PARCIAAAAAL\\Class3.cs",
+              "RelativeDocumentMoniker": "Class3.cs",
+              "ToolTip": "C:\\Users\\camil\\Documents\\scripting\\PARCIAL AYUDA DIOS MIO\\PARCIAAAAAL\\Class3.cs",
+              "RelativeToolTip": "Class3.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T03:33:15.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\camil\\Documents\\scripting\\PARCIAL AYUDA DIOS MIO\\PARCIAAAAAL\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "UnitTest1.cs",
-              "ToolTip": "C:\\Users\\camil\\Documents\\scripting\\PARCIAL AYUDA DIOS MIO\\PARCIAAAAAL\\UnitTest1.cs",
-              "RelativeToolTip": "UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Class2.cs",
+              "DocumentMoniker": "C:\\Users\\camil\\Documents\\scripting\\PARCIAL AYUDA DIOS MIO\\PARCIAAAAAL\\Class2.cs",
+              "RelativeDocumentMoniker": "Class2.cs",
+              "ToolTip": "C:\\Users\\camil\\Documents\\scripting\\PARCIAL AYUDA DIOS MIO\\PARCIAAAAAL\\Class2.cs",
+              "RelativeToolTip": "Class2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T03:11:44.48Z",
+              "WhenOpened": "2026-03-17T03:33:13.965Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
