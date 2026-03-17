@@ -34,7 +34,7 @@ namespace parcial
 
         public static IEnumerable<TestCaseData> TiendaTieneItemsData()
         {
-            yield return new TestCaseData(0, false);
+            yield return new TestCaseData(2, true);
             yield return new TestCaseData(1, true);
         }
 
@@ -70,6 +70,8 @@ namespace parcial
             Tienda tienda = new Tienda(lista);
             Assert.That(tienda.TieneItems(), Is.EqualTo(esperado));
         }
+
+       
     }
 
     [TestFixture]

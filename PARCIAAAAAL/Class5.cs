@@ -7,22 +7,29 @@ public class Tienda
 
     public Tienda(List<ItemTienda> itemsIniciales)
     {
-        if (itemsIniciales != null)
+        if (itemsIniciales == null || itemsIniciales.Count == 0)
+            throw new ArgumentException("La tienda debe tener al menos un item");
+
+        for (int i = 0; i < itemsIniciales.Count; i++)
         {
-            for (int i = 0; i < itemsIniciales.Count; i++)
+            var it = itemsIniciales[i];
+            if (it != null && it.Item != null && it.Item.EsValido())
             {
-                var it = itemsIniciales[i];
-                if (it != null && it.Item != null && it.Item.EsValido())
-                {
-                    inventario.Add(it);
-                }
+                inventario.Add(it);
             }
         }
-    }
 
+        if (inventario.Count == 0)
+            throw new ArgumentException("La tienda debe tener al menos un item válido");
+    }
     public bool TieneItems()
     {
-        return inventario.Count > 0;
+        for (int i = 0; i < inventario.Count; i++)
+        {
+            if (inventario[i].Cantidad > 0)
+                return true;
+        }
+        return false;
     }
 
     public bool AgregarItem(Item item, int cantidad)
