@@ -71,7 +71,12 @@ namespace parcial
             Assert.That(tienda.TieneItems(), Is.EqualTo(esperado));
         }
 
-       
+        [Test]
+        public void CrearTiendaSinItems_LanzaExcepcion()
+        {
+            List<ItemTienda> lista = new List<ItemTienda>();
+            Assert.Throws<ArgumentException>(() => new Tienda(lista));
+        }
     }
 
     [TestFixture]
